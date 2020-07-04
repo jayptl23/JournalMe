@@ -68,6 +68,8 @@ export const login = (email, password) => async (dispatch) => {
     dispatch({ type: LOGIN_SUCCESS, payload: res.data });
     dispatch(loadUser());
   } catch (err) {
+    //console.log(`err: ${err}`);
+    //console.log(`err.response:`, err.response);
     //const errors = err.response.data.errors;
     const errors = err.response.data;
 

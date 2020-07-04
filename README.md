@@ -17,7 +17,7 @@ This is a MERN stack application. It includes authentication and interacting wit
 ## Add a config.env file in the config folder with the following
 
 ```
-PORT = 5000
+PORT = 4000
 MONGO_URI = <your_MongoDB_Atlas_uri_with_credentials>
 JWT_SECRET_KEY = secret
 ```
